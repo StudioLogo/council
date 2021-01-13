@@ -12,4 +12,4 @@ yarn-error.log
 .env
 
 # Project exclude paths
-/backups/
+/backups/git branch -M main
