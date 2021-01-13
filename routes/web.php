@@ -60,6 +60,7 @@ Route::get('api/users', 'Api\UserController@index');
 Route::post('api/users/{user}/avatar', 'Api\UserAvatarController@store')->middleware('auth')->name('avatar');
 
 
+
 // очистка кэша
 Route::get('/clear', function() {
     Artisan::call('cache:clear');
